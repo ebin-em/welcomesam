@@ -57,24 +57,15 @@
 
       <section id="designs" class="section">
         <div class="container">
-          <h2>Interior packages for every room</h2>
-          <div class="cards three-col">
-            <article class="card">
-              <img src="https://images.unsplash.com/photo-1617104551722-3b2d51366426?auto=format&fit=crop&w=900&q=80" alt="Kitchen design" />
-              <h3>Kitchen</h3>
-              <p>Modular kitchens that maximize storage and style.</p>
-            </article>
-            <article class="card">
-              <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=900&q=80" alt="Bedroom design" />
-              <h3>Bedroom</h3>
-              <p>Calm, functional bedrooms tailored to your daily routine.</p>
-            </article>
-            <article class="card">
-              <img src="https://images.unsplash.com/photo-1616594039964-3e18bd8b4b01?auto=format&fit=crop&w=900&q=80" alt="Living room design" />
-              <h3>Living Room</h3>
-              <p>Elegant spaces designed to host and unwind effortlessly.</p>
-            </article>
+          <h2>Choose your room type and explore designs</h2>
+          <p>Select 2BHK or 4BHK to preview curated interiors for your home.</p>
+
+          <div class="room-switch" role="tablist" aria-label="Room type selector">
+            <button class="room-option active" data-room="2bhk" type="button">2BHK</button>
+            <button class="room-option" data-room="4bhk" type="button">4BHK</button>
           </div>
+
+          <div id="room-design-grid" class="cards three-col"></div>
         </div>
       </section>
 
@@ -129,6 +120,6 @@
         <p>© 2026 HomeCraft Interiors. Crafted with care.</p>
       </div>
     </footer>
+      <script src="script.js"></script>
   </body>
 </html>
-
