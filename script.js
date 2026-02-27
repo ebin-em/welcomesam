@@ -4,7 +4,7 @@ const roomDesigns = {
       title: "Compact Modern 2BHK",
       description: "Open living-dining layout with warm wood finishes and hidden storage.",
       image:
-        "https://images.unsplash.com/photo-1616594039964-3e18bd8b4b01?auto=format&fit=crop&w=900&q=80",
+        "img/compact-modern-2bhk.jpg",
     },
     {
       title: "Scandinavian Light 2BHK",
@@ -69,3 +69,4 @@ roomButtons.forEach((button) => {
 });
 
 renderDesigns("2bhk");
+
